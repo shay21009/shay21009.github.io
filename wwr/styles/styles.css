@@ -94,3 +94,8 @@ footer p a:hover {
 .logo {
     width: 80px;
 }
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+}}
