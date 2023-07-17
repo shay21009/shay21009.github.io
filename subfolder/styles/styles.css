@@ -15,7 +15,7 @@ p {
 
 nav a{
     text-align:center;
-    color:#0C1618;
+    color:#1C0118;
     text-decoration:none;
     padding: 35px;
 
@@ -40,7 +40,7 @@ nav {
 
 footer {
     background-color:#E7C24F;
-    color:#0C1618;
+    color:#1C0118;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -82,8 +82,8 @@ h2 {
     justify-self: center;
     align-self: center;
 }
-.icon {
-    border: 10px solid #4A4E69;
+.icon  {
+    border: 10px solid #1C0118;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #264027;
     width: 200px;
@@ -92,7 +92,7 @@ h2 {
    
     grid-column: 6/10;
     grid-row: 6/7;
-    
+    margin-top: 20px;
     margin-left:20px;
     width: 30%;
 
@@ -117,6 +117,7 @@ footer {
         margin-top: 70px;
     }
     .icon {
+        margin-top: 20px;
         margin-left:20px;
         width: 25%;
         
@@ -209,7 +210,7 @@ footer {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #1C0118;
 }
 
 /* Fading animation */
@@ -235,9 +236,63 @@ footer {
         width: 40%;
     }
     
-    .icon {
+    .icon6 {
+        border: 10px solid #1C0118;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #264027;
+        width: 200px;
+        background-color: #96ADC8;
+        line-height: 1.5em;
+        margin-top: 20px;
         margin-left:20px;
         width: 30%;
+        grid-column: 6/10;
+        grid-row: 6/7;
+        
+    }
+    .icon7 {
+        border: 10px solid #1C0118;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #264027;
+        width: 200px;
+        background-color: #96ADC8;
+        line-height: 1.5em;
+        margin-top: 20px;
+        margin-left:20px;
+        width: 30%;
+        height: 100%;
+        grid-column: 6/10;
+        grid-row: 6/7;
+        
+    }
+    .icon8 {
+        border: 10px solid #1C0118;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #264027;
+        width: 200px;
+        background-color: #96ADC8;
+        line-height: 1.5em;
+        margin-top: 20px;
+        margin-left:20px;
+        width: 30%;
+        height: 30%;
+        grid-column: 6/10;
+        grid-row: 6/7;
+        
+    }
+    .icon9 {
+        border: 10px solid #1C0118;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #264027;
+        width: 200px;
+        background-color: #96ADC8;
+        line-height: 1.5em;
+        margin-top: 20px;
+        margin-left:20px;
+        width: 90%;
+        height: 90%;
+        grid-column: 6/10;
+        grid-row: 6/7;
         
     }
     .blankets-grid {
